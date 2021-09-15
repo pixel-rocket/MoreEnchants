@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+
+  "id": "moreenchants",
+  "version": "${version}",
+  "name": "More Enchants",
+
+  "environment": "*",
+  "mixins": [ "moreenchants.mixins.json" ],
+  "entrypoints": {
+    "main": [ "io.github.pixelrocket.enchants.MoreEnchants" ],
+    "client": [ "io.github.pixelrocket.enchants.client.MoreEnchantsClient" ]
+  },
+
+  "depends": {
+    "minecraft": "1.16.5",
+    "fabric": "*"
+  }
+}
