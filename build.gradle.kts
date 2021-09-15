@@ -46,7 +46,7 @@ license {
     include("**/*.gradle.kts")
     ext {
         set("year", Year.now().value)
-        set("company", "Team Galacticraft")
+        set("company", "Pixel Rocket")
     }
 }
 
